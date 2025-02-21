@@ -117,4 +117,8 @@ Inter container communication also happens via the host network.
 
 - An Overlay network is created to communicate between containers on multiple hosts in a Docker Swarm.
 
--
+- Did not dig deep into it.
+
+# Edamame Case Study
+
+- Used K8 to orchestrate load testing of a server serving both HTTP and WebSocket protocol.
