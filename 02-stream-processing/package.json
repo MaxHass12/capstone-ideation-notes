@@ -1,0 +1,21 @@
+{
+  "name": "02-stream-processing",
+  "version": "1.0.0",
+  "main": "producer.js",
+  "scripts": {
+    "p1": "node producer1.js",
+    "p2": "node producer2.js",
+    "c1": "node consumer1.js",
+    "c2": "node consumer2.js",
+    "c3": "node consumer3.js",
+    "restart-kafka": "docker compose down -v && docker compose up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
