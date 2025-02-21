@@ -29,7 +29,7 @@ The most popular containerization technology is Docker.
 
 Two related and confusing concepts in Docker are Image and Container.
 
-**Image** is an immmutable file including our program, dependencies and "OS" required to run it. An Image can be made in 1 system, then shipped to other system.
+**Image** is an immmutable file made of the software, dependencies and "OS" required to run it. An Image can be made in one system, then shipped to other system.
 
 A **Container** is a runtime instance of image. We can think that image is a program, whereas container is a process running from that program which can be run identically in any system.
 
